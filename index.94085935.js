@@ -1,0 +1,2 @@
+var e={Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}};document.addEventListener("DOMContentLoaded",function(){var n=document.querySelector("#tree");n?(function e(n,t){if(Object.keys(t).length){var r=document.createElement("ul");for(var o in t)if(t.hasOwnProperty(o)){var a=document.createElement("li");a.textContent=o,e(a,t[o]),r.appendChild(a)}n.appendChild(r)}}(n,e),console.log("Дерево успешно создано:",n.innerHTML)):console.log("Элемент #tree не найден в DOM.")});
+//# sourceMappingURL=index.94085935.js.map
